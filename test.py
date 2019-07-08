@@ -1,8 +1,5 @@
-# -*- coding: utf-8 -*-
 import numpy as np
-import copy
 
-a = np.array([[1,2,3], [1,2,3]])
-b = [1,1]
-c = a.dot(b)
-print(c.shape)
+a = np.array([[1,2,3],[4,5,6]])
+b = np.array([1,1,1])
+print(a.dot(b))
